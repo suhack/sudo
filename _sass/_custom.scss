@@ -1,0 +1,41 @@
+#logo {
+  display: block;
+  margin: 4rem auto;
+}
+
+/**
+ * Format for command-format titles
+ */
+.command {
+  &:before {
+    content: "$ ";
+  }
+}
+
+.question {
+  margin: 1rem auto;
+
+  & + &:before {
+    content: "------------------------------";
+    display: block;
+    margin: 1rem auto;
+  }
+}
+
+.query {
+  font-weight: bold;
+}
+
+.answer {
+  text-indent: 2em;
+}
+
+input[type="email"], input[type="email"]:active, input[type="email"]:focus,
+input[type="submit"], input[type="submit"]:active, input[type="submit"]:focus {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  color: $text-color;
+  background: $grey-color-dark;
+  border: none;
+  padding: 1em;
+}
