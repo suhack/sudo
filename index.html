@@ -2,22 +2,110 @@
 layout: default
 ---
 
-<div class="home">
+<section id="home">
+  <img id="logo" src="{{ site.baseurl }}/images/hack-stetson-logo.png" alt="{{ site.title }}"/>
+</section>
 
-  <h1 class="page-heading">Posts</h1>
+<section>
+  <h1 class="command" id="about"><a href="#about">cat ~/about.txt</a></h1>
+  <p class="answer">
+    A 24-hour hackathon hosted by Stetson Hacker Space with the support of Green Hat Media.
+  </p>
+</section>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<section>
+  <h1 class="command" id="signup"><a href="#signup">cat "h.acker@school.edu" >> email.list</a></h1>
+  <div class="answer">
+    <div id="mc_embed_signup">
+      <form
+          action="//stetson.us10.list-manage.com/subscribe/post?u=2ee07d4db34e2e6dc6201cc3c&amp;id=1e64172029"
+          method="post"
+          id="mc-embedded-subscribe-form"
+          name="mc-embedded-subscribe-form"
+          class="form-inline"
+          target="_blank">
+        <input
+            type="email"
+            name="EMAIL"
+            class="form-control input-lg"
+            id="mce-EMAIL"
+            placeholder="h.acker@school.edu">
+        <input
+            type="submit"
+            value="Get Updates"
+            name="subscribe"
+            id="mc-embedded-subscribe">
+        <input
+            type="hidden"
+            name="b_2ee07d4db34e2e6dc6201cc3c_1e64172029"
+            tabindex="-1">
+      </form>
+    </div>
+  </div>
+</section>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<section>
+  <h1 class="command" id="info"><a href="#info">cat ~/info.txt</a></h1>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <div class="question">
+    <dt class="query">Who can attend?</dt>
+    <div class="answer">
+      Anyone that is currently a college student or that has graduated in the past year is allowed to hack!
+    </div>
+  </div>
 
-</div>
+  <div class="question">
+    <dt class="query">When and where?</dt>
+    <dl class="answer">
+      April 9 - 10, 2016.
+      <a href="https://www.google.com/maps/place/Hollis+Center+Stetson+University">Hollis Center at Stetson
+        University</a>.
+      Get updates by signing up to the mailing list.
+    </dl>
+  </div>
+
+  <div class="question">
+    <dt class="query">How much does it cost?</dt>
+    <dl class="answer">
+      Attendance is completely free, we'll supply food, drinks, and energy products to keep you hacking!
+    </dl>
+  </div>
+
+  <div class="question">
+    <dt class="query">What should I bring?</dt>
+    <dl class="answer">
+      Your laptop, chargers, personal hygiene supplies, change of clothes, blanket, pillows, sleeping bag.
+    </dl>
+  </div>
+
+  <div class="question">
+    <dt class="query">Do I have to stay the whole time?</dt>
+    <dl class="answer">
+      We will not force you to stay, but suggest that you do.
+      There are activities you do not want to miss!
+      Please make sure all hacking is done at the event.
+    </dl>
+  </div>
+
+  <div class="question">
+    <dt class="query">What if I am new to programming?</dt>
+    <dl class="answer">
+      Beginners are always welcome!
+      This is not only an event where you can win prizes, but also a learning experience for everyone.
+    </dl>
+  </div>
+
+  <div class="question">
+    <dt class="query">How big can my team be?</dt>
+    <dl class="answer">
+      You can have a team of two to five hackers, or you can hack by yourself.
+    </dl>
+  </div>
+
+  <div class="question">
+    <dt class="query">Have any more questions?</dt>
+    <dl class="answer">
+      Send us a message: <a href="mailto:hack@stetson.edu">hack@stetson.edu</a>.
+    </dl>
+  </div>
+</section>
