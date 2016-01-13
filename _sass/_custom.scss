@@ -39,3 +39,11 @@ input[type="submit"], input[type="submit"]:active, input[type="submit"]:focus {
   border: none;
   padding: 1em;
 }
+
+#mc_embed_signup {
+  margin-left: 2em;
+
+  @include media-query($on-palm) {
+    margin-left: 0;
+  }
+}
