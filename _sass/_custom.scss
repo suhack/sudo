@@ -30,20 +30,11 @@
   text-indent: 2em;
 }
 
-input[type="email"], input[type="email"]:active, input[type="email"]:focus,
-input[type="submit"], input[type="submit"]:active, input[type="submit"]:focus {
+a.register, a.register:active, a.register:focus {
   font-family: $base-font-family;
   font-size: $base-font-size;
   color: $text-color;
   background: $grey-color-dark;
   border: none;
   padding: 1em;
-}
-
-#mc_embed_signup {
-  margin-left: 2em;
-
-  @include media-query($on-palm) {
-    margin-left: 0;
-  }
 }
