@@ -30,6 +30,10 @@
   text-indent: 2em;
 }
 
+.partner, .sponsor {
+  margin: 5rem;
+}
+
 input[type="email"], input[type="email"]:active, input[type="email"]:focus,
 input[type="submit"], input[type="submit"]:active, input[type="submit"]:focus {
   font-family: $base-font-family;
