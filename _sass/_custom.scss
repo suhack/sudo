@@ -49,3 +49,19 @@ a.register, a.register:active, a.register:focus {
   border: none;
   padding: 1em;
 }
+
+#thank-you {
+  &::before {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    content: '$ sudo HackStetson | cowsay';
+    display: block;
+  }
+
+  font-family: $base-font-family;
+  line-height: 1.5;
+  font-size: $base-font-size;
+  background: transparent;
+  overflow-x: hidden;
+  border: none;
+}
