@@ -17,6 +17,9 @@
   &:before {
     content: "$ ";
   }
+
+  margin-top: $spacing-unit / 2;
+  margin-bottom: $spacing-unit / 2;
 }
 
 .question {
@@ -47,6 +50,7 @@ a.register, a.register:active, a.register:focus {
   color: $text-color;
   background: $grey-color-dark;
   border: none;
+  margin: 2em;
   padding: 1em;
 }
 
