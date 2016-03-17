@@ -1,13 +1,21 @@
 #logo {
   display: block;
-  margin: auto;
-  margin-bottom: 4rem;
+  margin: auto auto 4rem;
+
+  a, a:hover, a:active, a:visited {
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
 
 #title-logo {
   display: block;
-  margin: auto;
-  margin-top: 4rem;
+  margin: 4rem auto auto;
+
+  a, a:hover, a:active, a:visited {
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
 
 /**
