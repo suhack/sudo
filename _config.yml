@@ -2,7 +2,7 @@
 title: sudo HackStetson
 email: hack@stetson.edu
 description: > # this means to ignore newlines until "baseurl:"
-  April 9 - 10. A 24-hour hackathon hosted by Stetson Hacker Space.
+  April 9 - 10. A 20-hour hackathon hosted by Stetson Hacker Space.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://hackstetson.com" # the base hostname & protocol for your site
 twitter_username: hackstetson
