@@ -43,6 +43,11 @@
 .partner, .sponsor {
   margin: 5rem;
   text-align: center;
+
+  a, a:hover, a:active, a:visited {
+    text-decoration: none;
+    cursor: pointer;
+  }
 }
 
 a.register, a.register:active, a.register:focus {
