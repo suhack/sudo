@@ -40,6 +40,21 @@
   }
 }
 
+/**
+ * Format for tables
+ */
+table {
+  display: block;
+
+  td:first-child {
+    width: 25%;
+  }
+}
+
+thead {
+  font-weight: bold;
+}
+
 .query {
   font-weight: bold;
 }
